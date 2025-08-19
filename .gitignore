@@ -1,0 +1,30 @@
+# ==============================
+# Banco de dados
+# ==============================
+
+# Ignorar backups automáticos
+banco/backup/*.sql
+
+# Ignorar arquivos temporários do MySQL ou XAMPP
+*.log
+*.tmp
+*.sql~   # arquivos temporários de edição de SQL
+
+# ==============================
+# Sistema / PHP / IDE
+# ==============================
+
+# Node.js (se usado)
+node_modules/
+
+# VS Code
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Cache PHP / Composer
+vendor/
+composer.lock
+cache/
