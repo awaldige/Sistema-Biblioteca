@@ -10,6 +10,10 @@ banco/backup/*.sql
 *.tmp
 *.sql~   # arquivos temporários de edição de SQL
 
+# Arquivos de configuração sensíveis
+.env
+config.php
+
 # ==============================
 # Sistema / PHP / IDE
 # ==============================
